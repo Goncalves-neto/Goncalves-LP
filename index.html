@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goncalves - Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Botão hambúrguer -->
+  <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+
+  <div class="container">
+    <div class="sidebar">
+      <div class="logo">G</div>
+    </div>
+    <div class="main">
+      <div class="text">
+        <h1>Olá, me chamo Goncalves jose</h1>
+        <h2>Desenvolvedor</h2>
+        <p>Atuo com desenvolvimento de sites e aplicativos.</p>
+        <div class="contact-info">
+          <div class="contact-item">
+            <strong>Git</strong>
+           Goncalves-neto
+          </div>
+          <div class="contact-item">
+            <strong>Email</strong>
+            Goncalvessilva9162@gmail.com
+          </div>
+        </div>
+      </div>
+      <div class="profile-img">
+        <img src="Goncalves Image .jpeg" alt="Minha imagem" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Script para abrir/fechar o menu no mobile -->
+  <script>
+    const toggle = document.querySelector(".menu-toggle");
+    const sidebar = document.querySelector(".sidebar");
+
+    toggle.addEventListener("click", () => {
+      sidebar.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>
